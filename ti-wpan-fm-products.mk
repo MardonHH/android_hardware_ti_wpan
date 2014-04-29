@@ -1,12 +1,9 @@
 # This file lists the software specific to WiLink connectivity chip
 # FM
-PRODUCT_PACKAGES += uim-sysfs \
-    bt_sco_app \
+PRODUCT_PACKAGES += \
     kfmapp     \
-    BluetoothSCOApp \
     FmRxApp \
-    FmTxApp \
     FmService \
-    Libfmradio \
+    libfmradio \
     fmradioif \
     com.ti.fm.fmradioif.xml
