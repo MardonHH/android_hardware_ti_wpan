@@ -53,7 +53,6 @@ import android.os.SystemClock;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent; /*need wakelock for delayed poweroff */
-import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
 
 import android.media.MediaPlayer;
